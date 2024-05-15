@@ -13,12 +13,12 @@ module.exports = {
   langs: process.env.LANGS || "en",
   nodes: [
     {
-      host: process.env.NODE_HOST || "lavalink.oryzen.xyz",
+      host: process.env.NODE_HOST || "lava-v4.ajieblogs.eu.org",
       identifer: process.env.NODE_ID || "Main",
 
-      port: parseInt(process.env.NODE_PORT || "80"),
-      password: process.env.NODE_PASSWORD || "oryzen.xyz",
-      secure: parseBoolean(process.env.NODE_SECURE || "false"),
+      port: parseInt(process.env.NODE_PORT || "443"),
+      password: process.env.NODE_PASSWORD || "https://dsc.gg/ajidevserver",
+      secure: parseBoolean(process.env.NODE_SECURE || "true"),
     },
   ],
 };
