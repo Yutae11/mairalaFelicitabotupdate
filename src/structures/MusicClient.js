@@ -24,7 +24,7 @@ class MusicBot extends Client {
                 Intents.FLAGS.GUILD_VOICE_STATES
             ]
         });
-     const db = new Database('mongodb+srv://pee33:wnn99e@cluster0.fgivnid.mongodb.net/?retryWrites=true&w=majority');
+     const db = new Database('mongodb+srv://az782l:u9tivl@cluster0.mmfongd.mongodb.net/?retryWrites=true&w=majority');
   db.connect();
   require("../core/db.js")
      this.slashCommands = new Collection();
