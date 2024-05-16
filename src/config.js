@@ -13,11 +13,11 @@ module.exports = {
   langs: process.env.LANGS || "en",
   nodes: [
     {
-      host: process.env.NODE_HOST || "xeon1-de.reyo.run",
+      host: process.env.NODE_HOST || "lavalink3.alfari.id",
       identifer: process.env.NODE_ID || "Main",
 
-      port: parseInt(process.env.NODE_PORT || "2561"),
-      password: process.env.NODE_PASSWORD || "freelavalinkserver",
+      port: parseInt(process.env.NODE_PORT || "80"),
+      password: process.env.NODE_PASSWORD || "catfein",
       secure: parseBoolean(process.env.NODE_SECURE || "false"),
     },
   ],
